@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="QCtest001">
+		<parameter name="Browser" value="chrome"></parameter>
+		<classes>
+			<!-- <class name="qc.testing.testing_setup_works"></class> -->
+			<!-- <class name="qc.testing.testing_open_mobile_h5"></class> -->
+			<!-- <class name="qc.java.testsystem.test_seleniumdriver_Chrome"></class> -->
+			<!-- <class name="qc.selenium.InternetHeroKuapp.checkbox_testing"></class> -->
+			<!-- <class name="simplilearn.assignmentTestNG.multipleEnvironmentTestNG"></class> -->
+			<!-- <class name="qc.selenium.grid.SeleniumGridEXE"></class> -->
+		</classes>
+	</test> <!-- Test -->
+	<test name="QCtest002">
+		<parameter name="Browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="simplilearn.assignmentTestNG.stockManagementAndJenkins"></class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
